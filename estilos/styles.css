@@ -4,14 +4,14 @@
     padding: 0;
 }
 nav{
-    background-color: rgba(0, 0, 0, 0.859);
+    background-color: rgb(255, 255, 255);
     height: 100px;
     display: flex;
     align-items: center;
+    
 }
 ul{
     width: 100%;
-   /* border: 2px rgb(119, 29, 202) solid;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -25,13 +25,14 @@ li{
     font-family: Arial, Helvetica, sans-serif;
 }
 li:hover{
-    background-color: #2b2b6b;
+    background-color: hwb(50 82% 0%);
+    border-color: #2b2b6b;
     transform: scale(1.1);
 }
 img{
     width: 100px;
 }
 a{
-    color: whitesmoke;
+    color: #4086cc;
     text-decoration: none;
 }
